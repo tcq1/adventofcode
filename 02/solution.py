@@ -57,6 +57,8 @@ def get_valid_passwords(df, validation_method):
 
 
 def main():
+    """ Task: https://adventofcode.com/2020/day/2
+    """
     file_path = 'input'
     data = pd.read_csv(file_path, sep=' ', names=['policy', 'letter', 'password'])
     data = process_dataframe(data)
