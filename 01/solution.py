@@ -23,6 +23,8 @@ def find_solution_task_2(data):
 
 
 def main():
+    """ Task: https://adventofcode.com/2020/day/1
+    """
     data = np.loadtxt('input', dtype=int)
     print(find_solution_task_1(data))
     print(find_solution_task_2(data))
