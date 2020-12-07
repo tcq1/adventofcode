@@ -94,6 +94,7 @@ def main():
 
     # task 2
     my_seat = find_my_seat(data)
+    print(my_seat)
     print(get_seat_id(my_seat[0], my_seat[1]))
 
 
